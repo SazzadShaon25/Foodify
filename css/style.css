@@ -1,8 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    overflow-x: hidden !important;
-    
+    background-color: bisque;    
    
 }
 .about-container{
@@ -12,6 +11,7 @@ body{
     text-align: justify;
    
 }
+
 .menu-container,.testimonials-container,.contact-container{
     margin-top: 30px;
     margin-bottom: 40px; 
@@ -93,6 +93,9 @@ span{
   margin-left: auto;
   margin-right: auto;
   padding: 10px 0px;
+}
+.contact-container{
+    background-color:whitesmoke;
 }
 footer{
     display: flex;
